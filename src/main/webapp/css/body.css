@@ -1,0 +1,308 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#party {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#party td, #party th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#party tr:nth-child(even){background-color: #f2f2f2;}
+
+#party tr:hover {background-color: #ddd;}
+
+#party th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6675df;
+    color: white;
+}
+.table-all{border-collapse:collapse;border-spacing:3px;width:100%;display:table}.table-all{border:3px solid #ccc}
+.table-all tr:nth-child(odd){background-color:#fff}.table-all tr:nth-child(even){background-color:#f1f1f1}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+.container-table{
+    padding: 16px;
+    background-color: white;
+}
+/* Full-width input fields */
+input[type=text], input[type=email],input[type=password] {
+    width: 85%;
+    padding: 12px;
+    margin: 4px 0 12px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+select[type=text]{
+    width: 93%;
+    padding: 12px;
+    margin: 4px 0 12px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=date] {
+    width: 85%;
+    padding: 12px;
+    margin: 4px 0 12px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=date]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+select[type=text]:focus {
+    background-color: #f1f1f1;
+    outline: none;
+}
+.label{
+    width: 85%;
+    padding: 12px;
+    margin: 4px 0 12px 0;
+    display: inline-block;
+
+    font-family: Montserrat-Bold, monospace;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 15px;
+}
+
+
+
+.login100-more {
+    width: calc(100% - 560px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Set a style for the submit button */
+.btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 85%;
+    height: 40px;
+    border-radius: 10px;
+    background: #6675df;
+
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+.wrap-login100 {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+
+}
+
+.btn:hover {
+    background: #333333;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #6675df;
+}
+
+.active {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    width: 60%;
+    height: 45px;
+
+    background: #6675df;
+
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.active:hover {
+    background: #333333;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.winner{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    width: 60%;
+    height: 45px;
+
+    background: rgba(70, 242, 13, 0.58);
+
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+}
+
+.winner:hover{
+    background: #333333;
+}
+
+.containerr {
+    position: relative;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+}
